@@ -1,4 +1,3 @@
-/*
 Nayla 
 
 
@@ -10,7 +9,7 @@ d1a9bfb42435446
 Client Secret
 edc37735aacc76d5941b21e6faead61a665c787d
 
-
+----
 
 
 Token Name 
@@ -35,5 +34,3 @@ account_id
 
 account_username
 jaggirlmeister
-
-*/
