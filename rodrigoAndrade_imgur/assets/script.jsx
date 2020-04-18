@@ -29,7 +29,15 @@ const showImage = async () => {
         document.getElementById("imagen").append(img);
         */
 
-        const image = <img src={link} width="900px"></img>;
+       //Hago un destructuring de la propiedad obtenida para extraer sólo el link (Nayla's edit)
+       const obtainLink = {link}
+       const src = obtainLink.link;
+       console.log(obtainLink);
+       console.log(src);
+
+        const image = <img src={src} width="900px"></img>;
+        //const image = <img src={link} width="900px"></img>;
+
         const imageTitle = <h3>{title}</h3>
 
         ReactDOM.render(
